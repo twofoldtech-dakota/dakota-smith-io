@@ -104,7 +104,7 @@ export default function NavigationMenuDemo() {
 
       <NavigationMenuList>
         <NavigationMenuItem>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+            <NavigationMenuLink className={`cursor-pointer ${navigationMenuTriggerStyle()}`}>
               <ThemeIcon />
             </NavigationMenuLink>
         </NavigationMenuItem>

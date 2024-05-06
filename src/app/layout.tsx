@@ -24,12 +24,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      {/* <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange> */}
-      <body className={`font-sans ${inter.variable}`}>
-        <Header />
-        {children}
-      </body>
-      {/* </ThemeProvider> */}
+      <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+        <body className={`font-sans ${inter.variable}`}>
+          <Header />
+          {children}
+        </body>
+      </ThemeProvider>
     </html>
   );
 }
