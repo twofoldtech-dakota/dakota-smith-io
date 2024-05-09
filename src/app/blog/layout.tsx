@@ -5,13 +5,14 @@ export default function BlogLayout({
     children: React.ReactNode
   }) {
     return (
-      <div className="container">
-        <div className="">
+      <main className="container flex">
+        <div className="container w-1/3">
             blog sidebar
         </div>
-        <main className="container">
+
+        <div className="container">
             {children}
-        </main>
-    </div>
+        </div>
+    </main>
     )
   }

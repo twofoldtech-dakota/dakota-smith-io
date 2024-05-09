@@ -1,9 +1,9 @@
 import Link from "next/link";
 
-export default function BlogPage() {
+export default function BlogsPage() {
   return (
-    <div className="container">
+    <main className="container flex min-h-screen flex-col items-center">
       all blogs shown here
-    </div>
+    </main>
   );
 }
